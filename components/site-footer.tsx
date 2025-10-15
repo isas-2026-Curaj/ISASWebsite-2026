@@ -60,8 +60,8 @@ export default function SiteFooter() {
 
           {/* CONTACT details */}
           <div>
-            <h3 className="text-lg font-semibold tracking-wide">CONTACT</h3>
-            <div className="mt-2 mb-4 h-1 w-16 rounded bg-primary" />
+            <h3 className="text-lg font-semibold tracking-wide text-center md:text-left">CONTACT</h3>
+            <div className="mt-2 mb-4 h-1 w-16 mx-auto md:mx-0 rounded bg-primary" />
             <ul className="space-y-3 text-sm inline-flex flex-col items-center md:items-start">
               <li>
                 <span className="opacity-80">Email:</span>{" "}

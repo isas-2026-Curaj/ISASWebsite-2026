@@ -42,6 +42,22 @@ function Hero() {
   )
 }
 
+// Simple colorful placeholder icon
+function PlaceholderIcon({ color }: { color: string }) {
+  return (
+    <span
+      className="inline-block rounded-full shadow"
+      style={{
+        width: 36,
+        height: 36,
+        background: color,
+        display: "inline-block",
+        border: "2px solid #fff",
+      }}
+    />
+  )
+}
+
 export default function Page() {
   return (
     <main>
@@ -58,23 +74,26 @@ export default function Page() {
         }
         align="center"
       >
-        <div className="grid md:grid-cols-3 gap-4 justify-center">
-          <Card className="text-center">
-            <CardContent className="p-5">
-              <p className="text-sm text-muted-foreground">Theme</p>
-              <p className="font-medium">Connecting Science with Society</p>
+        <div className="grid md:grid-cols-3 gap-6 justify-center">
+          <Card className="text-center shadow-xl border-0 bg-gradient-to-br from-yellow-100 via-pink-100 to-green-100 hover:scale-[1.03] transition">
+            <CardContent className="p-6 flex flex-col items-center">
+              <PlaceholderIcon color="#F59E42" />
+              <p className="text-sm text-muted-foreground mt-2">Theme</p>
+              <p className="font-semibold text-primary mt-1">Connecting Science with Society</p>
             </CardContent>
           </Card>
-          <Card className="text-center">
-            <CardContent className="p-5">
-              <p className="text-sm text-muted-foreground">Dates</p>
-              <p className="font-medium">Jan 29–31, 2026</p>
+          <Card className="text-center shadow-xl border-0 bg-gradient-to-br from-green-100 via-yellow-100 to-pink-100 hover:scale-[1.03] transition">
+            <CardContent className="p-6 flex flex-col items-center">
+              <PlaceholderIcon color="#10B981" />
+              <p className="text-sm text-muted-foreground mt-2">Dates</p>
+              <p className="font-semibold text-primary mt-1">Jan 29–31, 2026</p>
             </CardContent>
           </Card>
-          <Card className="text-center">
-            <CardContent className="p-5">
-              <p className="text-sm text-muted-foreground">Venue</p>
-              <p className="font-medium">Auditorium, 4A5 Building (SMSCS), CURAJ</p>
+          <Card className="text-center shadow-xl border-0 bg-gradient-to-br from-pink-100 via-green-100 to-yellow-100 hover:scale-[1.03] transition">
+            <CardContent className="p-6 flex flex-col items-center">
+              <PlaceholderIcon color="#EF4444" />
+              <p className="text-sm text-muted-foreground mt-2">Venue</p>
+              <p className="font-semibold text-primary mt-1">Auditorium, 4A5 Building (SMSCS), CURAJ</p>
             </CardContent>
           </Card>
         </div>
@@ -111,9 +130,11 @@ export default function Page() {
           <div>
             <HeroSlider
               images={[
-                
                 { src: "/images/slider/objectives.png", alt: "Conference objectives infographic" },
                 { src: "/images/slider/dates.png", alt: "Important dates table for the conference" },
+                { src: "/images/slider/conf_highlights.png", alt: "Conference Highlights" },
+                { src: "/images/slider/Expected_outcome.png", alt: "Expected Outcomes" },
+                { src: "/images/slider/subthems.png", alt: "Sub-Themes of the Conference" },
               ]}
             />
           </div>
@@ -121,21 +142,22 @@ export default function Page() {
       </Section>
 
       <Section id="quick-links" title="Explore" align="center">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 justify-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 justify-center">
           {[
-            { href: "/about", label: "About", desc: "ISAS · CURAJ · Dept. of Statistics" },
-            { href: "/objectives", label: "Objectives", desc: "Motivation & goals" },
-            { href: "/highlights", label: "Highlights", desc: "Sessions & workshops" },
-            { href: "/sub-themes", label: "Sub-Themes", desc: "Tracks & topics" },
-            { href: "/dates", label: "Important Dates", desc: "Submissions & registrations" },
-            { href: "/registration#register-form", label: "Registration", desc: "Fees · Form · Bank details" },
-            { href: "/committee", label: "Committee", desc: "Leadership & members" },
-            { href: "/venue", label: "Venue & Contact", desc: "Map & details" },
+            { href: "/about", label: "About", desc: "ISAS · CURAJ · Dept. of Statistics", color: "#F59E42" },
+            { href: "/objectives", label: "Objectives", desc: "Motivation & goals", color: "#10B981" },
+            { href: "/highlights", label: "Highlights", desc: "Sessions & workshops", color: "#EF4444" },
+            { href: "/sub-themes", label: "Sub-Themes", desc: "Tracks & topics", color: "#6366F1" },
+            { href: "/dates", label: "Important Dates", desc: "Submissions & registrations", color: "#FDE68A" },
+            { href: "/registration#register-form", label: "Registration", desc: "Fees · Form · Bank details", color: "#A7F3D0" },
+            { href: "/committee", label: "Committee", desc: "Leadership & members", color: "#FCA5A5" },
+            { href: "/venue", label: "Venue & Contact", desc: "Map & details", color: "#F472B6" },
           ].map((c) => (
             <Link key={c.href} href={c.href} className="group">
-              <Card className="transition hover:-translate-y-0.5 hover:shadow-md text-center">
-                <CardHeader className="px-4 md:px-5 py-3 md:py-4">
-                  <CardTitle className="text-sm md:text-base">{c.label}</CardTitle>
+              <Card className="transition hover:-translate-y-1 hover:shadow-xl text-center shadow-lg border-0 bg-gradient-to-br from-white via-[rgba(0,0,0,0.03)] to-[rgba(0,0,0,0.07)]">
+                <CardHeader className="px-4 md:px-5 py-4 flex flex-col items-center">
+                  <PlaceholderIcon color={c.color} />
+                  <CardTitle className="text-base md:text-lg font-semibold text-primary mt-2">{c.label}</CardTitle>
                   <CardDescription className="text-xs md:text-sm">{c.desc}</CardDescription>
                 </CardHeader>
               </Card>

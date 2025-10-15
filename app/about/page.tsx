@@ -3,152 +3,135 @@ import Section from "@/components/section"
 
 export default function AboutPage() {
   return (
-    <main>
+    <main className="space-y-10 md:space-y-16">
       <Section title="Introduction">
-        <p className="leading-relaxed">
-          The Indian Society of Agricultural Statistics (ISAS), a premier professional body in the field
-          of agricultural statistics and allied sciences, is organizing 76th Annual Conference on “Data
-          Driven Decisions Connecting Science with Society towards Viksit Bharat @ 2047” during
-          29-31 January, 2026 at Central University of Rajasthan, Kishangarh, Ajmer. This conference
-          will bring together a diverse group of stakeholders, including farmers, students, Krishi
-          Vigyan Kendras (KVKs), academicians, researchers, and policymakers.
-
-          This conference seeks to explore how data-driven decision-making can transform
-          agricultural research, education, extension, and allied sciences to align with the national
-          vision of Viksit Bharat @ 2047. Emphasis will be placed on integrating science with society
-          through innovative statistical and computational methods, ensuring that modern data
-          technologies are translated into practical solutions for farmers, communities, and
-          policymakers.
-          The thematic focus of the conference will span across diverse areas. The role of data-driven
-          delivery systems through KVKs (ICAR) will be examined to strengthen grassroots-level
-          impact. Applications of data science in natural resource management (NRM), animal
-          sciences, and plant biological systems will be highlighted to address emerging challenges in
-          agriculture and allied sectors. Special attention will be given to integrated farming systems,
-          showcasing how multiple enterprises can be optimized through effective use of data.
-
-          Recognizing the regional challenges of Rajasthan, the conference will also emphasize smart
-          data applications for desert agriculture and horticulture, and discuss data-driven approaches
-          for public health and nutrition in rural communities. Emerging frontiers such as big data and
-          indigenous knowledge systems in sustainable farming, artificial intelligence and IoT in smart
-          agriculture, advanced modelling and analytics, and data-driven policy frameworks for Vision
-          2047 will form key pillars of the deliberations.
-
-          The conference aims to provide a global platform for academicians, researchers,
-          policymakers, and industry professionals to discuss contemporary challenges and
-          innovations in agricultural statistics, data science, and sustainable agricultural development.
-          The insights generated will not only promote scientifically sound and socially relevant
-          practices but also pave the way for sustainable, inclusive, and technology-enabled
-          agricultural growth in India. 
-        </p>
+        <div className="bg-white/80 rounded-xl shadow-md p-6 md:p-8 space-y-4 border">
+          <p className="text-lg leading-relaxed font-medium text-gray-800">
+            <span className="font-bold text-primary">Indian Society of Agricultural Statistics (ISAS)</span>, a premier professional body in agricultural statistics and allied sciences, is organizing the <span className="font-bold text-primary">76th Annual Conference</span> on <span className="italic text-primary">“Data Driven Decisions Connecting Science with Society towards Viksit Bharat @ 2047”</span> during <span className="font-semibold">29-31 January, 2026</span> at Central University of Rajasthan, Kishangarh, Ajmer.
+          </p>
+          <ul className="list-disc pl-6 text-base text-gray-700">
+            <li>Brings together farmers, students, KVKs, academicians, researchers, and policymakers.</li>
+            <li>Focus on data-driven decision-making for transforming agricultural research, education, and extension.</li>
+            <li>Integrates science with society using innovative statistical and computational methods.</li>
+          </ul>
+          <p className="text-base text-gray-700">
+            <span className="font-semibold text-primary">Conference Themes:</span> Data-driven delivery systems, applications in NRM, animal & plant sciences, integrated farming, desert agriculture, public health, big data, AI, IoT, and policy frameworks for Vision 2047.
+          </p>
+          <p className="text-base text-gray-700">
+            <span className="font-semibold text-primary">Goal:</span> Provide a global platform for discussing contemporary challenges and innovations in agricultural statistics and sustainable development.
+          </p>
+        </div>
       </Section>
 
       <Section title="About ISAS">
-        <p className="text-muted-foreground">
-          India has a proud legacy of statisticians who have made significant contributions to
-national and international welfare, establishing a strong foundation for Agricultural
-Statistics. To recognize these contributions, the Indian Society of Agricultural Statistics
-(ISAS) was founded on January 3, 1947, with Dr. Rajendra Prasadas its Founder
-President, who continued to guide the Society for 16 years even after becoming the
-President of India.
-The Society’s primary objective has been to disseminate research in Agricultural
-Statistics and informatics to address challenges in agriculture. It publishes the “Journal
-of the Indian Society of Agricultural Statistics” (ISSN 0019-6363), a unique platform for
-applied statistical research aimed at enhancing agricultural research and development
-across India.
-Continuing its mission, ISAS, in collaboration with the Department of Statistics, Central
-University of Rajasthan, Ajmer, is organizing the Annual Conference 2026 on “Data
-Driven Decisions for Connecting Science with Society towards Viksit Bharat @ 2047”,
-providing a forum for statisticians and researchers to share insights and innovations.
-President
-Dr. Mangi Lal Jat
-Executive President
-Dr. B.V.S. Sisodia
-Patrons
-Dr. A.K. Srivastav Dr. Padam Singh
-Vice Presidents
-Dr. A.R. Rao
-Dr. Amrit Kumar Paul
-Dr. Manish Sharma
-Dr. Rajesh Kumar
-Secretary
-Dr. Amrit Kumar Paul
-Joint Secretaries
-Dr. Ranjit Kumar Paul Dr. Kaustav Aditya Dr. Mahesh Kumar
-Treasurer
-Dr. K.K. Tyagi
-Members
-Dr. K.K. Chaturvedi
-Dr. Shashi Dahiya
-Dr. M.S. Farooqi
-Dr. Anu Sharma
-Dr. Dwijesh Chandra Mishra
-Dr . Bhim Singh
-Dr. K.K. Pandey
-Dr. Manoj Kumar Sharma
-Dr. S.B. Lal
-Dr. Sudhir Paswan
-Dr. Sudhir Srivastava
-Dr. Sukanta Dash
-        </p>
+        <div className="bg-white/80 rounded-xl shadow-md p-6 md:p-8 space-y-4 border">
+          <p className="text-lg font-medium text-gray-800">
+            <span className="font-bold text-primary">ISAS</span> was founded on <span className="font-semibold">January 3, 1947</span> by Dr. Rajendra Prasad, with a mission to advance agricultural statistics in India.
+          </p>
+          <p className="text-base text-gray-700">
+            Publishes the <span className="font-semibold">Journal of the Indian Society of Agricultural Statistics</span> (ISSN 0019-6363), a unique platform for applied statistical research.
+          </p>
+          <p className="text-base text-gray-700">
+            <span className="font-semibold text-primary">Annual Conference 2026:</span> Organized in collaboration with the Department of Statistics, CURAJ, focusing on data-driven decisions for Viksit Bharat @ 2047.
+          </p>
+          <div className="mt-4">
+            <span className="font-semibold text-primary block mb-2">ISAS Committee Members</span>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 text-sm text-gray-700">
+              <div>
+                <span className="font-semibold">President:</span> Dr. Mangi Lal Jat<br />
+                <span className="font-semibold">Executive President:</span> Dr. B.V.S. Sisodia<br />
+                <span className="font-semibold">Secretary:</span> Dr. Amrit Kumar Paul<br />
+                <span className="font-semibold">Treasurer:</span> Dr. K.K. Tyagi
+              </div>
+              <div>
+                <span className="font-semibold">Vice Presidents:</span>
+                <ul className="list-disc pl-4">
+                  <li>Dr. A.R. Rao</li>
+                  <li>Dr. Amrit Kumar Paul</li>
+                  <li>Dr. Manish Sharma</li>
+                  <li>Dr. Rajesh Kumar</li>
+                </ul>
+              </div>
+              <div>
+                <span className="font-semibold">Patrons:</span>
+                <ul className="list-disc pl-4">
+                  <li>Dr. A.K. Srivastav</li>
+                  <li>Dr. Padam Singh</li>
+                </ul>
+                <span className="font-semibold">Joint Secretaries:</span>
+                <ul className="list-disc pl-4">
+                  <li>Dr. Ranjit Kumar Paul</li>
+                  <li>Dr. Kaustav Aditya</li>
+                  <li>Dr. Mahesh Kumar</li>
+                </ul>
+              </div>
+              <div className="col-span-3">
+                <span className="font-semibold">Members:</span>
+                <ul className="flex flex-wrap gap-x-6 gap-y-1 list-disc pl-4">
+                  <li>Dr. K.K. Chaturvedi</li>
+                  <li>Dr. Shashi Dahiya</li>
+                  <li>Dr. M.S. Farooqi</li>
+                  <li>Dr. Anu Sharma</li>
+                  <li>Dr. Dwijesh Chandra Mishra</li>
+                  <li>Dr. Bhim Singh</li>
+                  <li>Dr. K.K. Pandey</li>
+                  <li>Dr. Manoj Kumar Sharma</li>
+                  <li>Dr. S.B. Lal</li>
+                  <li>Dr. Sudhir Paswan</li>
+                  <li>Dr. Sudhir Srivastava</li>
+                  <li>Dr. Sukanta Dash</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </Section>
 
       <Section title="About Central University of Rajasthan (CURAJ)">
-        <p className="text-muted-foreground">
-          The Central University of Rajasthan (CURaj) was established in the year 2009 by
-an Act of Parliament (Act No. 25 of 2009). This University was established with
-the aspiration to be one of India’s most dynamic and vibrant universities to impart
-cutting-edge education to all the learner communities. In this short period, the
-University has emerged as one of the top academic institutions by adopting
-cutting-edge technology to impart knowledge for global outreach. The University
-is one of the fastest-growing and flourishing institutes of higher education in
-Rajasthan and Accredited with A++ Grade by NAAC as well as Category-I status
-by UGC. CURAJ offers a diverse range of undergraduate, postgraduate, and
-doctoral programs across disciplines such as Science, Arts, Commerce, Social
-Sciences, and Management etc. . The campus is well-equipped with modern
-facilities, including state-of-the-art classrooms, laboratories, a well-stocked
-library, sports amenities, and comfortable hostels for students. The University
-places a strong emphasis on research, encouraging both faculty and students to
-actively engage in scholarly pursuits.
-        </p>
-         <div className="mt-6 rounded-lg border overflow-hidden">
-          <Image
-            src="/images/curaj-building.webp"
-            alt="CURAJ campus and gardens"
-            width={1200}
-            height={500}
-            className="w-full h-64 md:h-80 object-cover"
-          />
+        <div className="bg-white/80 rounded-xl shadow-md p-6 md:p-8 space-y-4 border">
+          <p className="text-lg font-medium text-gray-800">
+            <span className="font-bold text-primary">Central University of Rajasthan (CURaj)</span> was established in <span className="font-semibold">2009</span> by an Act of Parliament, aspiring to be one of India’s most dynamic universities.
+          </p>
+          <ul className="list-disc pl-6 text-base text-gray-700">
+            <li>Accredited with <span className="font-semibold text-primary">A++ Grade by NAAC</span> and <span className="font-semibold text-primary">Category-I status by UGC</span>.</li>
+            <li>Offers diverse UG, PG, and doctoral programs across Science, Arts, Commerce, Social Sciences, and Management.</li>
+            <li>Modern campus with state-of-the-art classrooms, labs, library, sports amenities, and hostels.</li>
+            <li>Strong emphasis on research and global outreach.</li>
+          </ul>
+          <div className="mt-6 rounded-lg border overflow-hidden">
+            <Image
+              src="/images/curaj-building.webp"
+              alt="CURAJ campus and gardens"
+              width={1200}
+              height={500}
+              className="w-full h-64 md:h-80 object-cover"
+            />
+            <div className="text-center text-xs text-muted-foreground mt-2">CURAJ Administration Building & Campus</div>
+          </div>
         </div>
       </Section>
 
       <Section title="Department of Statistics, SMSCS">
-        <p className="text-muted-foreground">
-          The Department of Statistics is one of the first two departments initiated alongwith
-Mathematics department by the Central University of Rajasthan, just after its
-establishment in the year 2009. The primary objective of the department is to
-provide quality education and promote theoretical, computational, and applied
-knowledge in the field of Statistics. This empowers students to pursue careers in
-academia, government sectors, private sectors, NGOs, etc. The department is actively
-involved in teaching and research, addressing significant issues in various areas such
-as Actuarial Science, Bayesian Statistics, Distribution Theory, Extreme Value Theory,
-Inference, Sampling Theory, Statistical Quality Control, Survival Analysis, Time
-Series Analysis, Big Data, Operations Research, and Non-Parametric Inference,
-among others. Moreover, the department provides excellent employment
-opportunities for its alumni, including positions in government organizations such as
-ISS, UPSC, RBI, RPSC, UPSSSC, and prestigious private organizations like SWISS
-Re, Edgewise Tokyo, KPMG, Sri Ram Finance, WNS Consultancy, The Rain Man
-Consultancy, Max Life Insurance, AON Hewitt Actuarial Consultancy, Nelson Private
-Ltd., etc. The faculty members actively engage in executing research projects in
-collaboration with organizations like UGC, CSIR, and MOSPI, among others.
-        </p>
-        <div className="mt-6 rounded-lg border overflow-hidden">
-          <Image
-            src="/images/statistics_dep.png"
-            alt="statistics department"
-            width={1200}
-            height={600}
-            className="w-full h-60 md:h-90 object-cover"
-          />
+        <div className="bg-white/80 rounded-xl shadow-md p-6 md:p-8 space-y-4 border">
+          <p className="text-lg font-medium text-gray-800">
+            <span className="font-bold text-primary">Department of Statistics</span> is one of the first two departments at CURAJ, established in 2009.
+          </p>
+          <ul className="list-disc pl-6 text-base text-gray-700">
+            <li>Focuses on theoretical, computational, and applied statistics.</li>
+            <li>Alumni placed in ISS, UPSC, RBI, RPSC, UPSSSC, and top private organizations.</li>
+            <li>Active research in Actuarial Science, Bayesian Statistics, Big Data, Operations Research, and more.</li>
+            <li>Collaborates with UGC, CSIR, MOSPI, and other organizations for research projects.</li>
+          </ul>
+          <div className="mt-6 rounded-lg border overflow-hidden">
+            <Image
+              src="/images/statistics_dep.png"
+              alt="Department of Statistics, CURAJ"
+              width={1200}
+              height={600}
+              className="w-full h-60 md:h-90 object-cover"
+            />
+            <div className="text-center text-xs text-muted-foreground mt-2">Department of Statistics, CURAJ</div>
+          </div>
         </div>
       </Section>
     </main>
