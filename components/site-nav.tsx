@@ -51,6 +51,17 @@ const menu: Array<
       { href: "/program/terms-and-conditions", label: "Terms and conditions" },
     ],
   },
+  {
+    type: "group",
+    label: "Events",
+    items: [
+      { href: "/Events/Farmer_session", label: "Farmer_session" },
+      { href: "/Events/Invited_Talks", label: "Invited_Talks" },
+      { href: "/Events/KVK_roundtable", label: "KVK_Rounds" },
+      { href: "/Events/Technical_Session", label: "Technical_Session" },
+      { href: "/Events/Workshop", label: "Workshop" },
+    ],
+  },
   { type: "link", href: "/contact", label: "Contact" },
 ]
 

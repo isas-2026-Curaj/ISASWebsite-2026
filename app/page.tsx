@@ -79,7 +79,7 @@ export default function Page() {
             <CardContent className="p-6 flex flex-col items-center">
               <PlaceholderIcon color="#F59E42" />
               <p className="text-sm text-muted-foreground mt-2">Theme</p>
-              <p className="font-semibold text-primary mt-1">Connecting Science with Society</p>
+              <p className="font-semibold text-primary mt-1">Data Driven Decisions towards Viksit Bharat @ 2047</p>
             </CardContent>
           </Card>
           <Card className="text-center shadow-xl border-0 bg-gradient-to-br from-green-100 via-yellow-100 to-pink-100 hover:scale-[1.03] transition">
@@ -132,9 +132,14 @@ export default function Page() {
               images={[
                 { src: "/images/slider/objectives.png", alt: "Conference objectives infographic" },
                 { src: "/images/slider/dates.png", alt: "Important dates table for the conference" },
-                { src: "/images/slider/conf_highlights.png", alt: "Conference Highlights" },
-                { src: "/images/slider/Expected_outcome.png", alt: "Expected Outcomes" },
-                { src: "/images/slider/subthems.png", alt: "Sub-Themes of the Conference" },
+                { src: "/images/slider/image-1760528144522.png", alt: "none" },
+                { src: "/images/slider/image-1760528171186.png", alt: "none" },
+                { src: "/images/slider/image-1760528156385.png", alt: "none" },
+                { src: "/images/slider/image-1760528182569.png", alt: "none" },
+                { src: "/images/slider/image-1760528194199.png", alt: "none" },
+                { src: "/images/slider/image-1760528204918.png", alt: "none" },
+                { src: "/images/slider/image-1760528214137.png", alt: "none" },
+                { src: "/images/slider/image-1760528225735.png", alt: "none" },
               ]}
             />
           </div>
@@ -151,7 +156,7 @@ export default function Page() {
             { href: "/dates", label: "Important Dates", desc: "Submissions & registrations", color: "#FDE68A" },
             { href: "/registration#register-form", label: "Registration", desc: "Fees · Form · Bank details", color: "#A7F3D0" },
             { href: "/committee", label: "Committee", desc: "Leadership & members", color: "#FCA5A5" },
-            { href: "/venue", label: "Venue & Contact", desc: "Map & details", color: "#F472B6" },
+            { href: "/venue", label: "Venue", desc: "Map & details", color: "#F472B6" },
           ].map((c) => (
             <Link key={c.href} href={c.href} className="group">
               <Card className="transition hover:-translate-y-1 hover:shadow-xl text-center shadow-lg border-0 bg-gradient-to-br from-white via-[rgba(0,0,0,0.03)] to-[rgba(0,0,0,0.07)]">
