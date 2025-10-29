@@ -10,8 +10,8 @@ import { Suspense } from "react"
 
 export const metadata: Metadata = {
   title: "ISAS 2026 - Central University of Rajasthan",
-  description: "Created with v0",
-  generator: "v0.app",
+  description: "International Symposium on Applied Statistics (ISAS) 2026, hosted by the Department of Statistics, School of Mathematical and Statistical Sciences, Central University of Rajasthan, Ajmer from January 29 to 31, 2026.",
+  generator: "Next.js",
 }
 
 export default function RootLayout({
