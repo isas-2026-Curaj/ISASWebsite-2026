@@ -26,7 +26,7 @@ function Hero() {
       {/* Text content over image */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-2xl md:text-5xl font-bold text-white drop-shadow-lg mb-4">
-          76 Annual Conference of Indian Society of Agricultural Statistics (ISAS)
+          76th Annual Conference of Indian Society of Agricultural Statistics (ISAS)
         </h1>
         <p className="text-lg md:text-2xl font-semibold text-white drop-shadow">
           Data Driven Decisions towards Viksit Bharat @ 2047
@@ -126,7 +126,6 @@ export default function Page() {
               </p>
             </CardContent>
           </Card>
-          {/* Right: Image slider */}
           <div>
             <HeroSlider
               images={[

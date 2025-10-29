@@ -84,7 +84,7 @@ export default function SiteNav() {
         <div className="flex items-center gap-1">
           <Link href="/" className="flex items-center gap-1 shrink-0" aria-label="Central University of Rajasthan Home">
             <Image
-              src="/logos/curaj-logo.png"
+              src="/logos/Image 2.jpeg"
               alt="Central University of Rajasthan"
               width={320}
               height={96}
@@ -93,24 +93,9 @@ export default function SiteNav() {
             />
             <span className="sr-only">CURAJ</span>
           </Link>
-          {/* NAAC logo */}
-          <Image
-            src="/logos/naac-a-plus-plus.png"
-            alt="NAAC Accredited A++"
-            width={28}
-            height={92}
-            className="h-8 w-auto md:h-15"
-          />
-          {/* NIRF logo */}
-          <Image
-            src="/logos/nirf.png"
-            alt="NIRF Accredited"
-            width={28}
-            height={92}
-            className="h-8 w-auto md:h-15"
-          />
+          
+          
         </div>
-        {/* Menu + ISAS logo: right corner */}
         <div className="ml-auto flex items-center">
           <nav className="hidden md:flex items-center gap-3 md:gap-8">
             <NavigationMenu>
@@ -168,14 +153,6 @@ export default function SiteNav() {
               </NavigationMenuList>
             </NavigationMenu>
           </nav>
-          {/* ISAS logo: right corner */}
-          <Image
-            src="/logos/isas.png"
-            alt="ISAS Logo"
-            width={30}
-            height={80}
-            className="h-8 w-auto md:h-15"
-          />
         </div>
         <button
           aria-label="Open menu"
