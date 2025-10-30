@@ -40,7 +40,7 @@ const menu: Array<
   },
   {
     type: "group",
-    label: "Program",
+    label: "For Authors",
     items: [
       { href: "/program/scientific-sessions", label: "Scientific session" },
       { href: "/program/event-schedule", label: "Event schedule" },
