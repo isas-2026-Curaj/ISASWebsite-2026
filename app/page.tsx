@@ -107,7 +107,7 @@ export default function Page() {
           {/* Left: Text card */}
           <Card className="shadow-lg border">
             <CardHeader className="bg-primary/10 border-b px-5 py-4 rounded-t">
-              <CardTitle className="text-lg md:text-xl font-bold text-primary">About Conference</CardTitle>
+              <CardTitle className="text-lg md:text-xl font-bold text-primary text-center">About Conference</CardTitle>
             </CardHeader>
             <CardContent className="p-5 md:p-6 overflow-y-auto max-h-[340px]">
               <p>
