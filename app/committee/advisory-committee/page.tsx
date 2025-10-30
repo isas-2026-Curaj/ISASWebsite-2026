@@ -4,13 +4,10 @@ export default function AdvisoryCommittee() {
   return (
     <main>
       <Section title="Advisory Committee">
-        <div className="flex flex-col items-center text-center space-y-10">
-
-          {/* Chief Patron */}
+        
+          <div className="grid md:grid-cols-2 gap-10 text-center mb-12">
           <div>
-            <p className="uppercase text-xs text-muted-foreground tracking-wider">
-              Chief Patron
-            </p>
+            <h3 className="font-semibold mt-1 text-lg">Chief Patron</h3>
             <h4 className="font-semibold mt-1 text-lg">Dr. Mangi Lal Jat</h4>
             <p className="text-sm text-muted-foreground">
               Secretary, DARE & DG, ICAR, New Delhi
@@ -20,11 +17,8 @@ export default function AdvisoryCommittee() {
             </p>
           </div>
 
-          {/* Patron */}
           <div>
-            <p className="uppercase text-xs text-muted-foreground tracking-wider">
-              Patron
-            </p>
+            <h3 className="font-semibold mt-1 text-lg">Patron</h3>
             <h4 className="font-semibold mt-1 text-lg">Prof. Anand Bhalerao</h4>
             <p className="text-sm text-muted-foreground">
               Vice Chancellor
@@ -33,6 +27,7 @@ export default function AdvisoryCommittee() {
               Central University of Rajasthan, Kishangarh, Ajmer
             </p>
           </div>
+        </div>
 
           {/* Advisory Members */}
           <div className="w-full mt-14">
