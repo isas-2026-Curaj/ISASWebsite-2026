@@ -25,8 +25,9 @@ export default function SiteFooter() {
             </div>
           </div>
 
-          {/*
+          
           {/* ABOUT links */}
+          {/* 
           <div>
             <h3 className="text-lg font-semibold tracking-wide">About</h3>
             <div className="mt-2 mb-4 h-1 w-16 rounded bg-primary" />
