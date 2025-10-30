@@ -6,13 +6,14 @@ export default function SiteFooter() {
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 -skew-x-6 opacity-[0.04]"
         style={{
-          backgroundImage: "linear-gradient(90deg, currentColor 1px, transparent 1px)",
+          backgroundImage:
+            "linear-gradient(90deg, currentColor 1px, transparent 1px)",
           backgroundSize: "60px 60px",
         }}
       />
 
       {/* Main content */}
-      <div className="relative container mx-auto max-w-20xl px-4 py-12">
+      <div className="relative container mx-auto max-w-7xl px-4 py-12">
         {/* Two-column layout */}
         <div className="grid gap-10 md:grid-cols-2 text-center md:text-left">
           
@@ -20,12 +21,10 @@ export default function SiteFooter() {
           <div className="flex flex-col items-center md:items-start">
             <h3 className="text-lg font-semibold tracking-wide">Organized By</h3>
             <div className="mt-2 mb-4 h-1 w-16 mx-auto md:mx-0 rounded bg-primary" />
-            <p className="text-sm leading-relaxed max-w-xs">
-              Department of Statistics, <br />
-              School of Mathematics, Statistics and Computational Sciences
-              <br />
-              Central University of Rajasthan, 
-              <br /> Ajmer, Rajasthan – 305817
+            <p className="text-sm leading-relaxed text-center md:text-left max-w-md">
+              Department of Statistics,<br />
+              School of Mathematics, Statistics and Computational Sciences<br />
+              Central University of Rajasthan, Ajmer, Rajasthan – 305817
             </p>
           </div>
 
@@ -43,7 +42,17 @@ export default function SiteFooter() {
                   isas@curaj.ac.in
                 </a>
               </li>
-              
+              <li>
+                <span className="opacity-80">Website:</span>{" "}
+                <a
+                  href="https://www.curaj.ac.in"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors hover:text-primary"
+                >
+                  www.curaj.ac.in
+                </a>
+              </li>
             </ul>
           </div>
         </div>
