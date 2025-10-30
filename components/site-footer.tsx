@@ -12,7 +12,7 @@ export default function SiteFooter() {
       />
 
       {/* Main content */}
-      <div className="relative container mx-auto max-w-7xl px-4 py-12">
+      <div className="relative container mx-auto max-w-8xl px-4 py-12">
         {/* Two-column layout */}
         <div className="grid gap-10 md:grid-cols-2 text-center md:text-left">
           
@@ -21,9 +21,11 @@ export default function SiteFooter() {
             <h3 className="text-lg font-semibold tracking-wide">Organized By</h3>
             <div className="mt-2 mb-4 h-1 w-16 mx-auto md:mx-0 rounded bg-primary" />
             <p className="text-sm leading-relaxed max-w-xs">
-              Department of Statistics, School of Mathematics, Statistics and Computational Sciences
+              Department of Statistics, <br />
+              School of Mathematics, Statistics and Computational Sciences
               <br />
-              Central University of Rajasthan, Ajmer, Rajasthan – 305817
+              Central University of Rajasthan, 
+              <br /> Ajmer, Rajasthan – 305817
             </p>
           </div>
 
