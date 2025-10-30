@@ -90,7 +90,7 @@ export default function SiteNav() {
               alt="Central University of Rajasthan"
               width={320}
               height={96}
-              className="h-14 md:h-24 w-auto max-w-[260px] md:max-w-none"
+              className="h-14 md:h-22 w-auto max-w-[260px] md:max-w-none"
               priority
             />
             <span className="sr-only">CURAJ</span>
