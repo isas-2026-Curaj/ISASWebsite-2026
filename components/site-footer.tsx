@@ -12,7 +12,7 @@ export default function SiteFooter() {
       />
 
       {/* Main content */}
-      <div className="relative container mx-auto max-w-8xl px-4 py-12">
+      <div className="relative container mx-auto max-w-20xl px-4 py-12">
         {/* Two-column layout */}
         <div className="grid gap-10 md:grid-cols-2 text-center md:text-left">
           
