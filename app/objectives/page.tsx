@@ -3,7 +3,7 @@ import Section from "@/components/section"
 export default function ObjectivesPage() {
   return (
     <main>
-      <Section title="Motivation">
+      <Section title="Motivation and Objectives">
         <div className="text-muted-foreground tracking-wider text-justify space-y-4 leading-relaxed">
           <p>
             Agriculture is at the core of India’s socio-economic structure. However, farmers often face challenges due to climate variability, market volatility and limited access to scientific knowledge. 
@@ -15,11 +15,11 @@ export default function ObjectivesPage() {
           <p>
             The inclusion of farmers, students, and KVK representatives ensures that the knowledge generated during the Conference translates into real-world benefits by empowering the farming community, building capacity in young researchers and enhancing the effectiveness of KVK-led extension services.
           </p>
-           </div>
- </Section>
-        
-      <Section title="Objectives">
-        <div className="text-muted-foreground tracking-wider text-justify space-y-4 leading-relaxed">
+
+<p>
+            The objectives of this conference are as follows:
+          </p>
+          
           <ul className="list-disc pl-6 space-y-2">
             <li>To provide farmers with exposure to innovative practices, data-driven solutions and success stories.</li>
             <li>To create a platform for students to learn, present research papers, poster presentations, and engage with experts.</li>
