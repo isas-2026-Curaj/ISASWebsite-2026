@@ -25,6 +25,7 @@ export default function SiteFooter() {
             </div>
           </div>
 
+          {/*
           {/* ABOUT links */}
           <div>
             <h3 className="text-lg font-semibold tracking-wide">About</h3>
@@ -57,6 +58,7 @@ export default function SiteFooter() {
               </li>
             </ul>
           </div>
+          */}
 
           {/* CONTACT details */}
           <div>
