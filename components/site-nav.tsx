@@ -86,7 +86,7 @@ export default function SiteNav() {
         <div className="flex items-center gap-1">
           <Link href="/" className="flex items-center gap-1 shrink-0" aria-label="Central University of Rajasthan Home">
             <Image
-              src="/logos/Image 2.jpeg"
+              src="/logos/Image_2.jpg"
               alt="Central University of Rajasthan"
               width={320}
               height={96}
