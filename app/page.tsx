@@ -146,16 +146,16 @@ export default function Page() {
       </Section>
 
       <Section id="quick-links" title="Explore" align="center">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 justify-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-6 justify-center">
           {[
             //{ href: "/about", label: "About", desc: "ISAS · CURAJ · Dept. of Statistics", color: "#F59E42" },
-            { href: "/objectives", label: "Objectives", desc: "Motivation & goals", color: "#10B981" },
-            { href: "/highlights", label: "Highlights", desc: "Sessions & workshops", color: "#EF4444" },
-            { href: "/sub-themes", label: "Sub-Themes", desc: "Tracks & topics", color: "#6366F1" },
-            { href: "/dates", label: "Important Dates", desc: "Submissions & registrations", color: "#FDE68A" },
-            { href: "/registration#register-form", label: "Registration", desc: "Fees · Form · Bank details", color: "#A7F3D0" },
+            { href: "/objectives", label: "Objectives", desc: "Motivation & Objectives", color: "#10B981" },
+            { href: "/highlights", label: "Highlights", desc: "Conference Higlights", color: "#EF4444" },
+            { href: "/sub-themes", label: "Sub-Themes", desc: "Submission Tracks", color: "#6366F1" },
+            { href: "/dates", label: "Important Dates", desc: "Conference Schedule", color: "#FDE68A" },
+            { href: "/registration#register-form", label: "Registration", desc: "Fees and Registration Form", color: "#A7F3D0" },
             //{ href: "/committee", label: "Committee", desc: "Leadership & members", color: "#FCA5A5" },
-            { href: "/venue", label: "Venue", desc: "Map & details", color: "#F472B6" },
+            { href: "/venue", label: "Venue", desc: "Map & How to Reach", color: "#F472B6" },
           ].map((c) => (
             <Link key={c.href} href={c.href} className="group">
               <Card className="transition hover:-translate-y-1 hover:shadow-xl text-center shadow-lg border-0 bg-gradient-to-br from-white via-[rgba(0,0,0,0.03)] to-[rgba(0,0,0,0.07)]">
