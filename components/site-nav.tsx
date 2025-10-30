@@ -23,42 +23,44 @@ const menu: Array<
     type: "group",
     label: "About",
     items: [
-      { href: "/about/organizer", label: "About organizer" },
-      { href: "/about/privacy-policy", label: "Privacy policy" },
-      { href: "/about/international-collaboration", label: "International collaboration" },
-      { href: "/about/faq", label: "FAQ" },
-      { href: "/about/award", label: "Award" },
+      //{ href: "/about/organizer", label: "About organizer" },
+      { href: "/about/about-isas", label: "Indian Society of Agricultural Statistics" },
+      { href: "/about/curaj", label: "Central University of Rajasthan" },
+      { href: "/about/department", label: "Dept. of Statistics" },
+      //{ href: "/about/award", label: "Award" },
     ],
   },
   {
     type: "group",
     label: "Committee",
     items: [
-      { href: "/committee/scientific-committee", label: "Scientific committee" },
-      { href: "/committee/featured-speakers", label: "Featured speakers" },
+      { href: "/committee/executive-committee", label: "Executive Committee" },
+      { href: "/committee/advisory-committee", label: "Advisory Committee" },
+      { href: "/committee/organizing-committee", label: "Organizing Committee" },
     ],
   },
   {
     type: "group",
-    label: "Program",
+    label: "For Authors",
     items: [
-      { href: "/program/scientific-sessions", label: "Scientific session" },
-      { href: "/program/event-schedule", label: "Event schedule" },
-      { href: "/venue", label: "Venue" },
+      //{ href: "/program/scientific-sessions", label: "Scientific session" },
+      //{ href: "/program/event-schedule", label: "Event schedule" },
+      { href: "/sub-themes", label: "Sub-Themes of the Conference" },
       { href: "/dates", label: "Important dates" },
       { href: "/registration", label: "Registration" },
       { href: "/program/abstract-submission", label: "Abstract submission" },
-      { href: "/program/terms-and-conditions", label: "Terms and conditions" },
+      { href: "/venue", label: "Venue" },
+      //{ href: "/program/terms-and-conditions", label: "Terms and conditions" },
     ],
   },
   {
     type: "group",
     label: "Events",
     items: [
-      { href: "/Events/Farmer_session", label: "Farmer_session" },
-      { href: "/Events/Invited_Talks", label: "Invited_Talks" },
-      { href: "/Events/KVK_roundtable", label: "KVK_Rounds" },
-      { href: "/Events/Technical_Session", label: "Technical_Session" },
+      { href: "/Events/Farmer_session", label: "Farmer Session" },
+      { href: "/Events/Invited_Talks", label: "Invited Talks" },
+      { href: "/Events/KVK_roundtable", label: "KVK Rounds" },
+      { href: "/Events/Technical_Session", label: "Technical Session" },
       { href: "/Events/Workshop", label: "Workshop" },
     ],
   },
@@ -84,11 +86,11 @@ export default function SiteNav() {
         <div className="flex items-center gap-1">
           <Link href="/" className="flex items-center gap-1 shrink-0" aria-label="Central University of Rajasthan Home">
             <Image
-              src="/logos/Image 2.jpeg"
+              src="/logos/Image_2.jpg"
               alt="Central University of Rajasthan"
-              width={320}
+              width={430}
               height={96}
-              className="h-12 md:h-20 w-auto max-w-[220px] md:max-w-none"
+              className="h-14 md:h-20 w-auto max-w-[260px] md:max-w-none"
               priority
             />
             <span className="sr-only">CURAJ</span>
