@@ -7,7 +7,7 @@ export default function ObjectivesPage() {
         title="Motivation and Objectives"
         subtitle="Empowering farmers, students, and extension ecosystems with data-driven agriculture."
       >
-        <ul className="grid md:grid-cols-2 gap-3 list-disc pl-5">
+        <ul className="grid md:grid-cols-1 gap-3 list-disc pl-5">
           <li>Expose farmers to innovative, data-driven practices and success stories.</li>
           <li>Create a platform for students to learn, present papers/posters, and engage with experts.</li>
           <li>Strengthen KVKs as knowledge bridges between research and practice.</li>
