@@ -42,17 +42,7 @@ export default function SiteFooter() {
                   isas@curaj.ac.in
                 </a>
               </li>
-              <li>
-                <span className="opacity-80">Website:</span>{" "}
-                <a
-                  href="https://www.curaj.ac.in"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="transition-colors hover:text-primary"
-                >
-                  www.curaj.ac.in
-                </a>
-              </li>
+              
             </ul>
           </div>
         </div>
