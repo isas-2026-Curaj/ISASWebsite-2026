@@ -14,7 +14,7 @@ export default function CommitteePage() {
           <div>
               <div className="w-32 h-32 mx-auto mt-2 overflow-hidden rounded-full bg-gray-200">
               <Image
-                src="/images/anand-bhalerao.jpg"
+                src="/org-members/HVC.jpg"
                 alt="Prof. Anand Bhalerao"
                 width={128}
                 height={128}
@@ -32,7 +32,7 @@ export default function CommitteePage() {
           <div>
               <div className="w-32 h-32 mx-auto mt-2 overflow-hidden rounded-full bg-gray-200">
               <Image
-                src="/images/mamta-rani.jpg"
+                src="/org-members/mamta-rani.png"
                 alt="Prof. Mamta Rani"
                 width={128}
                 height={128}
