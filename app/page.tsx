@@ -106,26 +106,31 @@ export default function Page() {
         <div className="mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
           {/* Left: Text card */}
           <Card className="shadow-lg border">
-            <CardHeader className="bg-primary/10 border-b px-5 py-4 rounded-t">
-              <CardTitle className="text-lg md:text-xl font-bold text-primary text-center">About Conference</CardTitle>
-            </CardHeader>
-            <CardContent className="p-5 md:p-6 overflow-y-auto max-h-[340px]">
-              <p>
-                We are thrilled to host the{" "}
-                <span className="font-semibold text-primary">76th Annual Conference of ISAS</span> at Central University of
-                Rajasthan, Ajmer.
-                <br />
-                <br />
-                This event brings together leading experts, researchers, and students in agricultural statistics to discuss{" "}
-                <span className="font-semibold">Data Driven Decisions towards Viksit Bharat @ 2047</span>
-                .
-                <br />
-                <br />
-                Join us for scientific sessions, workshops, and networking opportunities with distinguished speakers from across
-                India.
-              </p>
-            </CardContent>
-          </Card>
+  <CardHeader className="bg-primary/10 border-b px-5 py-4 rounded-t">
+    <CardTitle className="text-lg md:text-xl font-bold text-primary text-center">
+      About Conference
+    </CardTitle>
+  </CardHeader>
+  <CardContent className="p-5 md:p-6 overflow-y-auto max-h-[340px] text-justify">
+    <p>
+      We are thrilled to host the{" "}
+      <span className="font-semibold text-primary">76th Annual Conference of ISAS</span> at
+      Central University of Rajasthan, Ajmer.
+      <br />
+      <br />
+      This event brings together leading experts, researchers, and students in agricultural
+      statistics to discuss{" "}
+      <span className="font-semibold">Data Driven Decisions towards Viksit Bharat @ 2047</span>.
+      <br />
+      <br />
+      Join us for scientific sessions, workshops, and networking opportunities with
+      distinguished speakers from across India.
+    </p>
+  </CardContent>
+</Card>
+
+          
+          
           <div>
             <HeroSlider
               images={[
