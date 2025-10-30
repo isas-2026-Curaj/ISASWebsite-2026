@@ -34,8 +34,9 @@ const menu: Array<
     type: "group",
     label: "Committee",
     items: [
-      { href: "/committee/scientific-committee", label: "Scientific committee" },
-      { href: "/committee/featured-speakers", label: "Featured speakers" },
+      { href: "/committee/scientific-committee", label: "Executive Committee" },
+      { href: "/committee/featured-speakers", label: "Advisory Committee" },
+      { href: "/committee/featured-speakers", label: "Organizing Committee" },
     ],
   },
   {
@@ -89,7 +90,7 @@ export default function SiteNav() {
               alt="Central University of Rajasthan"
               width={320}
               height={96}
-              className="h-16 md:h-24 w-32 max-w-[260px] md:max-w-none"
+              className="h-16 md:h-24 w-auto max-w-[260px] md:max-w-none"
               priority
             />
             <span className="sr-only">CURAJ</span>
