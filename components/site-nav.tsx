@@ -34,9 +34,9 @@ const menu: Array<
     type: "group",
     label: "Committee",
     items: [
-      { href: "/committee/scientific-committee", label: "Executive Committee" },
-      { href: "/committee/featured-speakers", label: "Advisory Committee" },
-      { href: "/committee/featured-speakers", label: "Organizing Committee" },
+      { href: "/committee/executive-committee", label: "Executive Committee" },
+      { href: "/committee/advisory-committee", label: "Advisory Committee" },
+      { href: "/committee/organizing-committee", label: "Organizing Committee" },
     ],
   },
   {
