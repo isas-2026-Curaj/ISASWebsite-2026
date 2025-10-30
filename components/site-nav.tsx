@@ -44,7 +44,7 @@ const menu: Array<
     items: [
       //{ href: "/program/scientific-sessions", label: "Scientific session" },
       //{ href: "/program/event-schedule", label: "Event schedule" },
-      { href: "/app/sub-themes", label: "Sub-Themes of the Conference" },
+      { href: "/sub-themes", label: "Sub-Themes of the Conference" },
       { href: "/dates", label: "Important dates" },
       { href: "/registration", label: "Registration" },
       { href: "/program/abstract-submission", label: "Abstract submission" },
