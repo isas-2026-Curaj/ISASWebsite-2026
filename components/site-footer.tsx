@@ -14,10 +14,10 @@ export default function SiteFooter() {
         <div className="grid gap-10 md:grid-cols-3 text-center md:text-left place-items-center md:place-items-start">
           {/* Organized by section */}
           <div>
-            <p className="text-sm opacity-90">Organized by</p>
+            <h3 className="text-lg font-semibold tracking-wide">Organized By</h3>
             <div className="mt-4">
               <p className="text-sm leading-relaxed max-w-xs">
-                Department of Statistics, SMSCS
+                Department of Statistics, School of Mathematics, Statistics and Computational Sciences
                 <br />
                 Central University of Rajasthan, Ajmer, Rajasthan-305817
               </p>
@@ -27,7 +27,7 @@ export default function SiteFooter() {
 
           {/* ABOUT links */}
           <div>
-            <h3 className="text-lg font-semibold tracking-wide">ABOUT</h3>
+            <h3 className="text-lg font-semibold tracking-wide">About</h3>
             <div className="mt-2 mb-4 h-1 w-16 rounded bg-primary" />
             <ul className="space-y-3 text-sm inline-flex flex-col items-center md:items-start">
               <li>
@@ -60,7 +60,7 @@ export default function SiteFooter() {
 
           {/* CONTACT details */}
           <div>
-            <h3 className="text-lg font-semibold tracking-wide text-center md:text-left">CONTACT</h3>
+            <h3 className="text-lg font-semibold tracking-wide text-center md:text-left">Contact</h3>
             <div className="mt-2 mb-4 h-1 w-16 mx-auto md:mx-0 rounded bg-primary" />
             <ul className="space-y-3 text-sm inline-flex flex-col items-center md:items-start">
               <li>
