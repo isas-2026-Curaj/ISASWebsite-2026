@@ -1,34 +1,106 @@
 import Section from "@/components/section"
 
-export default function CommitteePage() {
+export default function AdvisoryCommittee() {
   return (
     <main>
-      <Section title="Organizing Committee (Local)">
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="rounded-lg border p-5">
-            <h4 className="font-semibold">Leadership</h4>
-            <ul className="mt-2 text-sm text-muted-foreground space-y-1">
-              <li>Patron: Prof. Anand Bhalerao, Hon’ble Vice Chancellor, CURAJ</li>
-              <li>Chair, Local Organising Committee: Prof. Mamta Rani, Dean, SMSCS</li>
-              <li>Convener: Prof. Jitendra Kumar, Dept. of Statistics</li>
-              <li>Co-Convener: Dr. Deepesh Bhati, Dept. of Statistics</li>
-              <li>Organising Secretary: Dr. Ravi Raj Choudhary, CS</li>
-              <li>Treasurer: Dr. Vipul Kakkar, Dept. of Mathematics</li>
-            </ul>
-          </div>
-          <div className="rounded-lg border p-5">
-            <h4 className="font-semibold">Members</h4>
-            <p className="mt-2 text-sm text-muted-foreground">
-              Dr. Saurabh Kumar · Dr. Suresh Kumar Patra · Dr. Abhay Kumar Rai · Dr. Ajay Indian · Dr. Arvind Pandey ·
-              Dr. Satish Kumar · Dr. Mahesh Barale · Dr. Nishtha Kesswani · Dr. Priyanka Bhaskar · Dr. Sanjay Kumar ·
-              Dr. Subodh Kumar
+      <Section title="Advisory Committee">
+        <div className="flex flex-col items-center text-center space-y-10">
+
+          {/* Chief Patron */}
+          <div>
+            <p className="uppercase text-xs text-muted-foreground tracking-wider">
+              Chief Patron
+            </p>
+            <h4 className="font-semibold mt-1 text-lg">Dr. Mangi Lal Jat</h4>
+            <p className="text-sm text-muted-foreground">
+              Secretary, DARE & DG, ICAR, New Delhi and President, ISAS, New Delhi
             </p>
           </div>
+
+          {/* Patron */}
+          <div>
+            <p className="uppercase text-xs text-muted-foreground tracking-wider">
+              Patron
+            </p>
+            <h4 className="font-semibold mt-1 text-lg">Prof. Anand Bhalerao</h4>
+            <p className="text-sm text-muted-foreground">
+              Vice Chancellor, Central University of Rajasthan, Kishangarh, Ajmer
+            </p>
+          </div>
+
+          {/* Advisory Members */}
+          <div className="w-full mt-14">
+            <h4 className="font-semibold text-lg mb-6 text-center">
+              Advisory Members
+            </h4>
+
+            <div className="grid md:grid-cols-3 gap-x-10 gap-y-4 text-sm text-muted-foreground leading-relaxed">
+              {[
+                "Dr. B.V.S. Sisodia, Executive President, ISAS",
+                "Dr. Padam Singh, Ex-Executive President, ISAS",
+                "Dr. Amrit Kumar Paul, Secretary, ISAS, New Delhi",
+                "Dr. P.S. Pandey, VC, RPCAU, Pusa",
+                "Dr. S.D. Sharma, Ex-Director, ICAR-IASRI, New Delhi",
+                "Dr. S.K. Raheja, Ex-Director, ICAR-IASRI, New Delhi",
+                "Dr. Kairam Narsaiah, Director (I/C), ICAR-IASRI, New Delhi",
+                "Prof. P.K. Dasora, Ex-VC, MPUAT, Udaipur & Kota University, Kota",
+                "Dr. R.C. Agrawal, Ex-DDG, Agricultural Education, ICAR, New Delhi",
+                "Dr. Girish C. Bhimani, Ex-VC and HoD, Saurashtra University, Rajkot",
+                "Dr. Manoj Kr Srivastava, VC, SM University, Bastar",
+                "Dr. Anil Kumar, ADG, ICAR, New Delhi",
+                "Dr. V.K. Bhatia, Ex-Director, ICAR-IASRI, New Delhi",
+                "Dr. A.K. Srivastava, Ex-Joint Director, ICAR-IASRI, New Delhi",
+                "Dr. U.C. Sud, Ex-Director, ICAR-IASRI, New Delhi",
+                "Dr. Pankaj Mittal, General Secretary, AIU",
+                "Dr. Rajender Parsad, Ex-Director, ICAR-IASRI, New Delhi",
+                "Dr. Anil Rai, ADG, ICAR, New Delhi",
+                "Dr. Seema Jaggi, ADG, ICAR, New Delhi",
+                "Dr. A.R. Rao, Vice President, ISAS",
+                "Dr. J.P. Singh Joorel, Dean, Academic Affairs, University of Jammu",
+                "Dr. Ravi Ratan Saxena, VC, MGH University, Raipur",
+                "Dr. Anoop Chaturvedi, Professor, University of Allahabad",
+                "Dr. S.C. Malik, Dean Academics Affairs, M.D. University, Rohtak",
+                "Dr. Sheela Misra, Dean, Lucknow University, Lucknow",
+                "Prof. D.C. Sharma, Dean Academics, CURaj, Ajmer",
+                "Dr. Somesh Kumar, Professor, IIT Kharagpur",
+                "Dr. Shalabh, Professor, IIT Kanpur",
+                "Dr. Narender Kumar, Dean, Panjab University, Chandigarh",
+                "Prof. Neeraj Tiwari, Head, SSJU University, Almora",
+                "Dr. Padi Tirupati Rao, Professor & Head, Pondicherry University",
+                "Dr. J.K. Prajapat, Professor & Ex-Dean, CURaj, Ajmer",
+                "Dr. Jayant Singh, Ex-Dean, Rajasthan University, Jaipur",
+                "Prof. Gajendra K. Vishvakarma, IIT-ISM Dhanbad, Dhanbad",
+                "Dr. K.A. Choubey, Ex-Director, ICAR-IASRI, New Delhi",
+                "Dr. Praveen K. Sahu, Dean, CURaj, Ajmer",
+                "Dr. Amitabh Srivastava, Dean, CURaj, Ajmer",
+                "Dr. Amita Sharma, Professor, Rajasthan University, Jaipur",
+                "Dr. K.N. Singh, HOD, ICAR-IASRI, New Delhi",
+                "Dr. Tauqueer Ahmad, HOD, ICAR-IASRI, New Delhi",
+                "Dr. Ramasubramanian V., HOD, ICAR-NAARM, Hyderabad",
+                "Dr. Girish Kumar Jha, HOD, ICAR-IASRI, New Delhi",
+                "Dr. M.R. Verma, HOD, ICAR-IASRI, New Delhi",
+                "Dr. Rajesh Kumar, Vice President, ISAS",
+                "Dr. Sanjeev Panwar, Principal Scientist, ICAR",
+                "Dr. S.P. Singh, Ex-Dean, RPCAU, Pusa",
+                "Dr. Anurup Majumder, BCKV, Nadia",
+                "Dr. B.K. Hooda, CCSHAU, Hisar, Haryana",
+                "Dr. Debasis Bhattacharya, Professor, Visva Bharati, Shantiniketan",
+                "Dr. Manish Sharma, Professor & Head, SKUAST, Jammu & Vice President, ISAS",
+                "Dr. D.S. Gupta, Professor, UBKV, Cooch Behar",
+                "Dr. Abhiram Dash, HOD, OUAT, Bhubaneswar",
+                "Dr. Shakeel Ahmad Mir, Dean, SKUAST-K, Srinagar, J&K",
+                "Dr. K.V. Asha Latha, HOD, UAS, Dharwad",
+                "Dr. A.D. Kalola, HOD, AAU, Anand",
+                "Dr. Rajesh Singh, Professor, BHU, Varanasi",
+                "Dr. K.K. Tyagi, Treasurer, ISAS",
+              ].map((member) => (
+                <p key={member} className="leading-snug">
+                  {member}
+                </p>
+              ))}
+            </div>
+          </div>
         </div>
-        <p className="mt-6 text-sm text-muted-foreground">
-          ISAS Leadership: President – Dr. Mangi Lal Jat · Executive President – Dr. B.V.S. Sisodia · Secretary – Dr.
-          Amrit Kumar Paul · Treasurer – Dr. K.K. Tyagi (and others as per ISAS).
-        </p>
       </Section>
     </main>
   )
