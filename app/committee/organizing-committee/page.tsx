@@ -6,7 +6,7 @@ export default function CommitteePage() {
     <main>
       <Section title="Organising Committee">
         {/* Center the section title */}
-        //<h2 className="text-center text-2xl font-semibold mb-10">Organising Committee</h2>
+        <h2 className="text-center text-2xl font-semibold mb-10">Organising Committee</h2>
 
         <div className="flex flex-col items-center text-center space-y-10">
 
