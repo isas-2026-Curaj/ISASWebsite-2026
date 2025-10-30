@@ -4,7 +4,7 @@ export default function SubThemesPage() {
   return (
     <main>
       <Section title="Sub-Themes of the Conference">
-        <ul className="grid md:grid-cols-2 gap-3 list-disc pl-5">
+        <ul className="grid md:grid-cols-1 gap-3 list-disc pl-5">
           <li>Data Driven Delivery System through KVK and ICAR.</li>
           <li>Data Science for NRM and Animal Science.</li>
           <li>Data Science in Plant Biological System.</li>
