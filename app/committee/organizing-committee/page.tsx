@@ -6,14 +6,13 @@ export default function CommitteePage() {
     <main>
       <Section title="Organising Committee">
         {/* Center the section title */}
-        <h2 className="text-center text-2xl font-semibold mb-10">Organising Committee</h2>
+        //<h2 className="text-center text-2xl font-semibold mb-10">Organising Committee</h2>
 
         <div className="flex flex-col items-center text-center space-y-10">
 
           {/* Patron */}
           <div>
-            <p className="uppercase text-xs text-muted-foreground tracking-wider">Patron</p>
-            <div className="w-32 h-32 mx-auto mt-2 overflow-hidden rounded-full bg-gray-200">
+              <div className="w-32 h-32 mx-auto mt-2 overflow-hidden rounded-full bg-gray-200">
               <Image
                 src="/images/anand-bhalerao.jpg"
                 alt="Prof. Anand Bhalerao"
@@ -22,6 +21,7 @@ export default function CommitteePage() {
                 className="object-cover w-full h-full"
               />
             </div>
+            <h3 className="font-semibold mt-3">Patron</h3>
             <h4 className="font-semibold mt-3">Prof. Anand Bhalerao</h4>
             <p className="text-sm text-muted-foreground">
               Hon’ble Vice Chancellor, CURaj
@@ -30,8 +30,7 @@ export default function CommitteePage() {
 
           {/* Chair Local Organising Committee */}
           <div>
-            <p className="uppercase text-xs text-muted-foreground tracking-wider">Chair, Local Organising Committee</p>
-            <div className="w-32 h-32 mx-auto mt-2 overflow-hidden rounded-full bg-gray-200">
+              <div className="w-32 h-32 mx-auto mt-2 overflow-hidden rounded-full bg-gray-200">
               <Image
                 src="/images/mamta-rani.jpg"
                 alt="Prof. Mamta Rani"
@@ -40,6 +39,7 @@ export default function CommitteePage() {
                 className="object-cover w-full h-full"
               />
             </div>
+            <h3 className="font-semibold mt-3">Chair Local Organising Committee</h3>
             <h4 className="font-semibold mt-3">Prof. Mamta Rani</h4>
             <p className="text-sm text-muted-foreground">Dean, SMSCS, CURaj</p>
           </div>
@@ -55,8 +55,7 @@ export default function CommitteePage() {
               ["Joint Treasurer", "Dr. Suresh Kumar Patra", "Dept. of Economics, CURaj", "/images/suresh-patra.jpg"],
             ].map(([role, name, dept, img]) => (
               <div key={name} className="flex flex-col items-center text-center">
-                <p className="uppercase text-xs text-muted-foreground tracking-wider">{role}</p>
-                <div className="w-28 h-28 mt-2 overflow-hidden rounded-full bg-gray-200">
+                  <div className="w-28 h-28 mt-2 overflow-hidden rounded-full bg-gray-200">
                   <Image
                     src={img}
                     alt={name}
@@ -65,6 +64,7 @@ export default function CommitteePage() {
                     className="object-cover w-full h-full"
                   />
                 </div>
+                <h3 className="font-medium mt-3">{role}</h3>
                 <h4 className="font-medium mt-3">{name}</h4>
                 <p className="text-sm text-muted-foreground">{dept}</p>
               </div>
@@ -73,7 +73,7 @@ export default function CommitteePage() {
 
           {/* Members Section */}
           <div className="w-full mt-14">
-            <h4 className="font-semibold text-lg mb-6 text-center">Members</h4>
+            <h3 className="font-semibold text-lg mb-6 text-center">Members</h3>
             <div className="grid md:grid-cols-2 gap-10 justify-items-center">
               {[
                 ["Prof. Arvind Pandey", "Dept. of Statistics, CURaj", "/images/arvind-pandey.jpg"],
