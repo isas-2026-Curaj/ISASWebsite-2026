@@ -113,18 +113,10 @@ export default function Page() {
   </CardHeader>
   <CardContent className="p-5 md:p-6 overflow-y-auto max-h-[340px] text-justify">
     <p>
-      We are thrilled to host the{" "}
-      <span className="font-semibold text-primary">76th Annual Conference of ISAS</span> at
-      Central University of Rajasthan, Ajmer.
-      <br />
-      <br />
-      This event brings together leading experts, researchers, and students in agricultural
-      statistics to discuss{" "}
-      <span className="font-semibold">Data Driven Decisions towards Viksit Bharat @ 2047</span>.
-      <br />
-      <br />
-      Join us for scientific sessions, workshops, and networking opportunities with
-      distinguished speakers from across India.
+      The Indian Society of Agricultural Statistics (ISAS), a premier professional body in the field of agricultural statistics and allied sciences, is organizing the 76th Annual Conference on Data Driven Decisions Connecting Science with Society towards Viksit Bharat @ 2047 during 29-31 January, 2026 at Central University of Rajasthan, Kishangarh, Ajmer. This Conference will bring together a diverse group of stakeholders, including farmers, students, Krishi Vigyan Kendras (KVKs), academicians, researchers and policymakers. 
+    </p>
+    <p>
+This Conference seeks to explore how data-driven decision-making can transform agricultural research, education, extension and allied sciences to align with the national vision of Viksit Bharat @ 2047. Emphasis will be placed on integrating science with society through innovative statistical and computational methods, ensuring that modern data technologies are translated into practical solutions for farmers, communities, and policymakers.
     </p>
   </CardContent>
 </Card>
