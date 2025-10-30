@@ -1,68 +1,66 @@
 import Section from "@/components/section"
 import { Button } from "@/components/ui/button"
-import RegistrationForm from "@/components/registration-form"
+import Image from "next/image"
 
 export default function RegistrationPage() {
   return (
-    <main>
+    <main className="space-y-10">
+      {/* --- Fees & Payment Section --- */}
       <Section title="Registration & Accommodation">
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="rounded-lg border p-5">
-            <h4 className="font-semibold">Fees</h4>
-            <ul className="mt-2 space-y-2 text-sm">
-              <li className="flex items-center justify-between">
-                <span>Life Member (ISAS) – Student</span>
-                <span>₹4000 (Early) · ₹4500–5500 (Late)</span>
-              </li>
-              <li className="flex items-center justify-between">
-                <span>Researchers / Scientists etc.</span>
-                <span>₹5000 (Early) · ₹5500–7000 (Late)</span>
-              </li>
-              <li className="flex items-center justify-between">
-                <span>Institutional Registration (Group)</span>
-                <span>₹25,000 · up to ₹30,000</span>
-              </li>
-              <li className="flex items-center justify-between">
-                <span>Group (Three Members) – Student Presentation</span>
-                <span>₹10,000 · up to ₹12,000</span>
-              </li>
-            </ul>
-            <div className="mt-4">
-              <Button asChild>
-                <a href="#register-form">Proceed to Register</a>
+          {/* --- Fees Chart Card --- */}
+          <div className="rounded-2xl border bg-background shadow-sm p-6">
+            <h4 className="font-semibold text-lg text-primary mb-4">Registration Fee Details</h4>
+            <div className="rounded-lg overflow-hidden border bg-white shadow-sm">
+              <Image
+                src="/images/fee_chart.png"  // 👈 Make sure this image is placed in /public/images/
+                alt="Registration Fee Chart"
+                width={600}
+                height={400}
+                className="w-full h-auto"
+              />
+            </div>
+            <p className="text-sm text-muted-foreground mt-3">
+              <strong>Note:</strong> Non-NET fellowship students of CURAJ will receive a 50% discount on the conference registration fees.
+            </p>
+            <div className="mt-5 text-center">
+              <Button asChild size="lg">
+                <a href="https://forms.gle/yrEAyQaeSr1ygqvk8">Proceed to Register</a>
               </Button>
             </div>
           </div>
 
-          <div className="rounded-lg border p-5">
-            <h4 className="font-semibold">Payment (Online/Offline)</h4>
-            <ul className="mt-2 text-sm text-muted-foreground space-y-1">
-              <li>Account Name: CENTRAL UNIVERSITY OF RAJASTHAN</li>
-              <li>Account No.: 666710210000001</li>
-              <li>IFSC Code: BKID0006667</li>
-              <li>Bank: BANK OF INDIA</li>
-              <li>
-                Branch: CURAJ Branch, NH-8, Bandarsindri, Kishangarh, Ajmer, Rajasthan – 305801 · Tel: 01463-238515
-              </li>
-            </ul>
-          </div>
-        </div>
-      </Section>
-
-      {/* Kept only the registration form section */}
-      <Section id="register-form" title="Register Now" subtitle="Fill the form to complete your registration">
-        <div className="rounded-lg border p-5 bg-card">
-          <div className="grid lg:grid-cols-2 gap-6">
+          {/* --- Payment Card --- */}
+          <div className="rounded-2xl border bg-background shadow-sm p-6 flex flex-col justify-between">
             <div>
-              <p className="text-sm text-muted-foreground">
-                Please provide your details. You will receive a confirmation on the website after submission. For
-                payment, use the bank details above (online/offline).
-              </p>
+              <h4 className="font-semibold text-lg text-primary">Payment (Online/Offline)</h4>
+              <ul className="mt-3 text-sm text-muted-foreground space-y-1">
+                <li><strong>Account Name:</strong> CENTRAL UNIVERSITY OF RAJASTHAN</li>
+                <li><strong>Account No.:</strong> 666710210000001</li>
+                <li><strong>IFSC Code:</strong> BKID0006667</li>
+                <li><strong>Bank:</strong> BANK OF INDIA</li>
+                <li>
+                  <strong>Branch:</strong> CURAJ Branch, NH-8, Bandarsindri, Kishangarh, Ajmer, Rajasthan – 305801<br />
+                  <span>Tel: 01463-238515</span>
+                </li>
+              </ul>
             </div>
-            <div>
-              <div className="rounded-lg border p-4 bg-background">
-                <RegistrationForm />
+
+            {/* --- QR Code --- */}
+            <div className="mt-6 text-center">
+              <h5 className="font-medium mb-2">Scan & Pay using QR Code</h5>
+              <div className="inline-block rounded-lg border bg-white p-3 shadow-md">
+                <Image
+                  src="/images/QR.png"
+                  alt="Bank QR Code"
+                  width={200}
+                  height={200}
+                  className="mx-auto rounded-md"
+                />
               </div>
+              <p className="text-xs text-muted-foreground mt-2">
+                UPI ID: <strong>boism-666787850001@boi</strong>
+              </p>
             </div>
           </div>
         </div>
