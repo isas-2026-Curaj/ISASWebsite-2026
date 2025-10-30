@@ -69,6 +69,7 @@ export default function SiteFooter() {
                   isas@curaj.ac.in
                 </a>
               </li>
+              {/*
               <li>
                 <span className="opacity-80">Venue:</span>{" "}
                 <a
@@ -91,6 +92,7 @@ export default function SiteFooter() {
                   curaj.ac.in/location
                 </a>
               </li>
+                */}
             </ul>
           </div>
         </div>
