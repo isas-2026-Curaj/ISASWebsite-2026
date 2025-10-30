@@ -3,7 +3,7 @@ import Section from "@/components/section"
 export default function CommitteePage() {
   return (
     <main>
-      <Section title="Executive Committee">
+     // <Section title="Executive Committee">
         //<div className="grid md:grid-cols-2 gap-6">
           //<div className="rounded-lg border p-5">
             <h4 className="font-semibold">President</h4>
