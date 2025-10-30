@@ -11,7 +11,7 @@ export default function SiteFooter() {
         }}
       />
       <div className="relative container mx-auto max-w-7xl px-4 py-12">
-        <div className="grid gap-10 md:grid-cols-3 text-center md:text-left place-items-center md:place-items-start">
+        <div className="grid gap-10 md:grid-cols-2 text-center md:text-left place-items-center md:place-items-start">
           {/* Organized by section */}
           <div>
             <h3 className="text-lg font-semibold tracking-wide">Organized By</h3>
