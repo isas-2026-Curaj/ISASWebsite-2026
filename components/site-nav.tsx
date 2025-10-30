@@ -24,10 +24,10 @@ const menu: Array<
     label: "About",
     items: [
       { href: "/about/organizer", label: "About organizer" },
-      { href: "/about/privacy-policy", label: "Privacy policy" },
-      { href: "/about/international-collaboration", label: "International collaboration" },
-      { href: "/about/faq", label: "FAQ" },
-      { href: "/about/award", label: "Award" },
+      { href: "/about/about-isas", label: "ISAS" },
+      { href: "/about/curaj", label: "CURAJ" },
+      { href: "/about/department", label: "Dept. of Statistics" },
+      //{ href: "/about/award", label: "Award" },
     ],
   },
   {
