@@ -23,9 +23,9 @@ const menu: Array<
     type: "group",
     label: "About",
     items: [
-      { href: "/about/organizer", label: "About organizer" },
-      { href: "/about/about-isas", label: "ISAS" },
-      { href: "/about/curaj", label: "CURAJ" },
+      //{ href: "/about/organizer", label: "About organizer" },
+      { href: "/about/about-isas", label: "Indian Society of Agricultural Statistics" },
+      { href: "/about/curaj", label: "Central University of Rajasthan" },
       { href: "/about/department", label: "Dept. of Statistics" },
       //{ href: "/about/award", label: "Award" },
     ],
