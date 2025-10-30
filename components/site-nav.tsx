@@ -88,7 +88,7 @@ export default function SiteNav() {
             <Image
               src="/logos/Image_2.jpg"
               alt="Central University of Rajasthan"
-              width={380}
+              width={430}
               height={96}
               className="h-14 md:h-20 w-auto max-w-[260px] md:max-w-none"
               priority
