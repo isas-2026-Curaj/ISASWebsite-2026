@@ -47,11 +47,11 @@ export default function CommitteePage() {
           {/* Middle Section — Two Columns */}
           <div className="grid md:grid-cols-2 gap-10 w-full mt-8">
             {[
-              ["Convener", "Prof. Jitendra Kumar", "Dept. of Statistics, CURaj", "/images/jitendra-kumar.jpg"],
-              ["Co-Convener", "Dr. Deepesh Bhati", "Dept. of Statistics, CURaj", "/images/deepesh-bhati.jpg"],
+              ["Convener", "Prof. Jitendra Kumar", "Dept. of Statistics, CURaj", "/org-members/jitendra.jpg"],
+              ["Co-Convener", "Dr. Deepesh Bhati", "Dept. of Statistics, CURaj", "/org-members/deepesh.gif"],
               ["Organising Secretary", "Dr. Ravi Raj Choudhary", "Dept. of CS, CURaj", "/images/ravi-raj.jpg"],
               ["Joint Organising Secretary", "Dr. Gaurav Meena", "Dept. of CS, CURaj", "/images/gaurav-meena.jpg"],
-              ["Treasurer", "Dr. Saurabh Kumar", "Dept. of Statistics, CURaj", "/images/saurabh-kumar.jpg"],
+              ["Treasurer", "Dr. Saurabh Kumar", "Dept. of Statistics, CURaj", "/org-members/saurabh.jpg"],
               ["Joint Treasurer", "Dr. Suresh Kumar Patra", "Dept. of Economics, CURaj", "/images/suresh-patra.jpg"],
             ].map(([role, name, dept, img]) => (
               <div key={name} className="flex flex-col items-center text-center">
@@ -78,11 +78,11 @@ export default function CommitteePage() {
               {[
                 ["Prof. Arvind Pandey", "Dept. of Statistics, CURaj", "/images/arvind-pandey.jpg"],
                 ["Dr. Nishtha Kesswani", "Dept. of DSA, CURaj", "/images/nishtha-kesswani.jpg"],
-                ["Dr. Sanjay Kumar", "Dept. of Statistics, CURaj", "/images/sanjay-kumar.jpg"],
+                ["Dr. Sanjay Kumar", "Dept. of Statistics, CURaj", "/org-members/sanjay.jpg"],
                 ["Dr. Ajay Indian", "Dept. of CS, CURaj", "/images/ajay-indian.jpg"],
                 ["Dr. Vipul Kakkar", "Dept. of Mathematics, CURaj", "/images/vipul-kakkar.jpg"],
-                ["Dr. Satish Kumar", "Dept. of Statistics, CURaj", "/images/satish-kumar.jpg"],
-                ["Dr. Mahesh Barale", "Dept. of Statistics, CURaj", "/images/mahesh-barale.jpg"],
+                ["Dr. Satish Kumar", "Dept. of Statistics, CURaj", "/org-members/satish.jpeg"],
+                ["Dr. Mahesh Barale", "Dept. of Statistics, CURaj", "/org-members/mahesh.jpg"],
                 ["Dr. Priyanka Bhaskar", "Dept. of Commerce, CURaj", "/images/priyanka-bhaskar.jpg"],
                 ["Dr. Abhay Kumar Rai", "Dept. of CS, CURaj", "/images/abhay-rai.jpg"],
                 ["Dr. Subodh Kumar", "Dept. of DSA, CURaj", "/images/subodh-kumar.jpg"],
