@@ -47,8 +47,8 @@ export default function CommitteePage() {
           {/* Middle Section — Two Columns */}
           <div className="grid md:grid-cols-2 gap-10 w-full mt-8">
             {[
-              ["Convener", "Prof. Jitendra Kumar", "Dept. of Statistics, CURaj", "/org-members/jitendra.jpg"],
-              ["Co-Convener", "Dr. Deepesh Bhati", "Dept. of Statistics, CURaj", "/org-members/deepesh.gif"],
+              ["Convener", "Prof. Jitendra Kumar", "Dept. of Statistics, CURaj", "/org-members/Jitendra.jpg"],
+              ["Co-Convener", "Dr. Deepesh Bhati", "Dept. of Statistics, CURaj", "/org-members/Deepesh.gif"],
               ["Organising Secretary", "Dr. Ravi Raj Choudhary", "Dept. of CS, CURaj", "/images/ravi-raj.jpg"],
               ["Joint Organising Secretary", "Dr. Gaurav Meena", "Dept. of CS, CURaj", "/images/gaurav-meena.jpg"],
               ["Treasurer", "Dr. Saurabh Kumar", "Dept. of Statistics, CURaj", "/org-members/saurabh.jpg"],
