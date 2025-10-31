@@ -69,11 +69,9 @@ const menu: Array<
 
 export default function SiteNav() {
   const [open, setOpen] = useState(false)
-  const [mounted, setMounted] = useState(false)
   const pathname = usePathname()
 
   useEffect(() => {
-    setMounted(true)
     if (typeof document === "undefined") return
     const body = document.body
     if (open) body.classList.add("overflow-hidden")
@@ -92,7 +90,7 @@ export default function SiteNav() {
               alt="Central University of Rajasthan"
               width={430}
               height={96}
-              className="h-16 md:h-24 w-auto max-w-[320px] md:max-w-none"
+              className="h-14 md:h-20 w-auto max-w-[260px] md:max-w-none"
               priority
             />
             <span className="sr-only">CURAJ</span>
@@ -101,10 +99,9 @@ export default function SiteNav() {
           
         </div>
         <div className="ml-auto flex items-center">
-          {mounted && (
-            <nav className="hidden md:flex items-center gap-3 md:gap-8">
-              <NavigationMenu>
-                <NavigationMenuList>
+          <nav className="hidden md:flex items-center gap-3 md:gap-8">
+            <NavigationMenu>
+              <NavigationMenuList>
                 {menu.map((item) => {
                   if (item.type === "link") {
                     const active = pathname === item.href
@@ -155,10 +152,9 @@ export default function SiteNav() {
                     </NavigationMenuItem>
                   )
                 })}
-                </NavigationMenuList>
-              </NavigationMenu>
-            </nav>
-          )}
+              </NavigationMenuList>
+            </NavigationMenu>
+          </nav>
         </div>
         <button
           aria-label="Open menu"
