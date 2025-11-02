@@ -49,12 +49,12 @@ export default function CommitteePage() {
             {[
               ["Convener", "Prof. Jitendra Kumar", "Dept. of Statistics, CURaj", "/org-members/Jitendra.jpg"],
               ["Co-Convener", "Dr. Deepesh Bhati", "Dept. of Statistics, CURaj", "/org-members/Deepesh.gif"],
-              ["Organising Secretary", "Dr. Ravi Raj Choudhary", "Dept. of CS, CURaj", "/images/ravi-raj.jpg"],
-              ["Joint Organising Secretary", "Dr. Gaurav Meena", "Dept. of CS, CURaj", "/images/gaurav-meena.jpg"],
+              ["Organising Secretary", "Dr. Ravi Raj Choudhary", "Dept. of CS, CURaj", "/org-members/raviraj.jpg"],
+              ["Joint Organising Secretary", "Dr. Gaurav Meena", "Dept. of CS, CURaj", "/org-members/gaurav.jpeg"],
       ["Joint Organising Secretary", "Dr. Ranjit Kumar Paul", "ICAR-IASRI, New Delhi", "/images/ranjit-paul.jpg"],
       ["Joint Organising Secretary", "Dr. Kaustav Aditya", "ICAR-IASRI, New Delhi", "/images/kaustav.jpg"],
               ["Treasurer", "Dr. Saurabh Kumar", "Dept. of Statistics, CURaj", "/org-members/saurabh.jpg"],
-              ["Joint Treasurer", "Dr. Suresh Kumar Patra", "Dept. of Economics, CURaj", "/images/suresh-patra.jpg"],
+              ["Joint Treasurer", "Dr. Suresh Kumar Patra", "Dept. of Economics, CURaj", "/org-members/suresh-patra.jpg"],
             ].map(([role, name, dept, img]) => (
               <div key={name} className="flex flex-col items-center text-center">
                   <div className="w-28 h-28 mt-2 overflow-hidden rounded-full bg-gray-200">
@@ -78,16 +78,16 @@ export default function CommitteePage() {
             <h3 className="font-semibold text-lg mb-6 text-center">Members</h3>
             <div className="grid md:grid-cols-2 gap-10 justify-items-center">
               {[
-                ["Prof. Arvind Pandey", "Dept. of Statistics, CURaj", "/images/arvind-pandey.jpg"],
-                ["Dr. Nishtha Kesswani", "Dept. of DSA, CURaj", "/images/nishtha-kesswani.jpg"],
+                ["Prof. Arvind Pandey", "Dept. of Statistics, CURaj", "/org-members/arvind.jpg"],
+                ["Dr. Nishtha Kesswani", "Dept. of DSA, CURaj", "/org-members/nishtha.jpeg"],
                 ["Dr. Sanjay Kumar", "Dept. of Statistics, CURaj", "/org-members/sanjay.jpg"],
-                ["Dr. Ajay Indian", "Dept. of CS, CURaj", "/images/ajay-indian.jpg"],
-                ["Dr. Vipul Kakkar", "Dept. of Mathematics, CURaj", "/images/vipul-kakkar.jpg"],
+                ["Dr. Ajay Indian", "Dept. of CS, CURaj", "/org-members/ajay.jpg"],
+                ["Dr. Vipul Kakkar", "Dept. of Mathematics, CURaj", "/org-members/vipul.jpg"],
                 ["Dr. Satish Kumar", "Dept. of Statistics, CURaj", "/org-members/satish.jpeg"],
-                ["Dr. Mahesh Barale", "Dept. of Statistics, CURaj", "/org-members/mahesh.jpg"],
-                ["Dr. Priyanka Bhaskar", "Dept. of Commerce, CURaj", "/images/priyanka-bhaskar.jpg"],
-                ["Dr. Abhay Kumar Rai", "Dept. of CS, CURaj", "/images/abhay-rai.jpg"],
-                ["Dr. Subodh Kumar", "Dept. of DSA, CURaj", "/images/subodh-kumar.jpg"],
+                ["Dr. Mahesh Barale", "Dept. of Statistics, CURaj", "/org-members/mahesh.jpeg"],
+                ["Dr. Priyanka Bhaskar", "Dept. of Commerce, CURaj", "/org-members/priyanka.jpeg"],
+                ["Dr. Abhay Kumar Rai", "Dept. of CS, CURaj", "/org-members/abhay.jpg"],
+                ["Dr. Subodh Kumar", "Dept. of DSA, CURaj", "/org-members/subodh.jpg"],
               ].map(([name, dept, img]) => (
                 <div key={name} className="flex flex-col items-center text-center">
                   <div className="w-24 h-24 overflow-hidden rounded-full bg-gray-200">
