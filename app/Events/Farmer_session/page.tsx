@@ -3,7 +3,8 @@ import Image from "next/image"
 export default function FarmerSessionPage() {
   return (
     <main className="max-w-3xl mx-auto py-10 px-4 space-y-8">
-      <h1 className="text-3xl md:text-4xl font-bold text-primary mb-2 text-center">Farmers’ Session</h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-primary mb-2 text-center">Coming Soon...</h1>
+      {/* 
       <div className="w-full flex justify-center mb-6">
         <Image
           src="/images/farmer_session.jpg"
@@ -35,6 +36,7 @@ export default function FarmerSessionPage() {
           <li>Policy makers and agri-entrepreneurs</li>
         </ul>
       </section>
+      */}
     </main>
   )
 }
