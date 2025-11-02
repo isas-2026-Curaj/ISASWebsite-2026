@@ -3,7 +3,8 @@ import Image from "next/image"
 export default function WorkshopPage() {
   return (
     <main className="max-w-4xl mx-auto py-10 px-4 space-y-10">
-      <h1 className="text-3xl md:text-4xl font-bold text-primary mb-4 text-center">Workshop</h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-primary mb-4 text-center">Coming Soon...</h1>
+      {/* 
       <div className="w-full flex justify-center mb-6">
         <Image
           src="/images/workshops.webp"
@@ -38,6 +39,7 @@ export default function WorkshopPage() {
           <li>Agri-entrepreneurs and policy makers</li>
         </ul>
       </section>
+      */}
     </main>
   )
 }
