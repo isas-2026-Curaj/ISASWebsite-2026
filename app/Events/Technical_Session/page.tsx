@@ -3,7 +3,8 @@ import Image from "next/image"
 export default function TechnicalSessionPage() {
   return (
     <main className="max-w-4xl mx-auto py-10 px-4 space-y-10">
-      <h1 className="text-3xl md:text-4xl font-bold text-primary mb-4 text-center">Technical Session</h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-primary mb-4 text-center">Coming Soon...</h1>
+      {/* 
       <div className="w-full flex justify-center mb-6">
         <Image
           src="/images/technical_session.jpeg"
@@ -38,6 +39,7 @@ export default function TechnicalSessionPage() {
           <li>Industry experts and policy makers</li>
         </ul>
       </section>
+      */}
     </main>
   )
 }
