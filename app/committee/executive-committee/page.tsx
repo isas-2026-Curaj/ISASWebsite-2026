@@ -23,7 +23,7 @@ export default function CommitteePage() {
           <div className="rounded-xl border p-5 shadow-sm">
             <h4 className="font-semibold text-lg">Patron</h4>
             <ul className="mt-2 text-sm text-muted-foreground space-y-1">
-              <li>Dr. A.K. Srivastav</li>
+              <li>Dr. A.K. Srivastava</li>
               <li>Dr. Padam Singh</li>
             </ul>
           </div>
