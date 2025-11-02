@@ -51,6 +51,8 @@ export default function CommitteePage() {
               ["Co-Convener", "Dr. Deepesh Bhati", "Dept. of Statistics, CURaj", "/org-members/Deepesh.gif"],
               ["Organising Secretary", "Dr. Ravi Raj Choudhary", "Dept. of CS, CURaj", "/images/ravi-raj.jpg"],
               ["Joint Organising Secretary", "Dr. Gaurav Meena", "Dept. of CS, CURaj", "/images/gaurav-meena.jpg"],
+      ["Joint Organising Secretary", "Dr. Ranjit Kumar Paul", "ICAR-IASRI, New Delhi", "/images/ranjit-paul.jpg"],
+      ["Joint Organising Secretary", "Dr. Kaustav Aditya", "ICAR-IASRI, New Delhi", "/images/kaustav.jpg"],
               ["Treasurer", "Dr. Saurabh Kumar", "Dept. of Statistics, CURaj", "/org-members/saurabh.jpg"],
               ["Joint Treasurer", "Dr. Suresh Kumar Patra", "Dept. of Economics, CURaj", "/images/suresh-patra.jpg"],
             ].map(([role, name, dept, img]) => (
