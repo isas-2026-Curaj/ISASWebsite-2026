@@ -13,7 +13,7 @@ export default function Page() {
         <div className="mt-4 flex flex-wrap gap-3">
           <Button asChild>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQL-jBIWCQU23_9ZpDWtSKW0uS-Wt5Xpky3pcWdpr4uPit1A/viewform" target="_blank" rel="noopener noreferrer">
-              Submit Abstract (Tentative)
+              Submit Abstract
             </a>
           </Button>
           <Button variant="secondary" asChild>
