@@ -1,8 +1,15 @@
 import Section from "@/components/section"
 
-const items: [string, string][] = [
+
+const items: [string, React.ReactNode][] = [
   ["Abstract Submission Start", "November 01, 2025"],
-  ["Last Date of Abstract Submission", <del>"December 25, 2025"</del><ins>"January 15, 2026"</ins>],
+  [
+    "Last Date of Abstract Submission",
+    <>
+      <del className="text-muted-foreground mr-2">December 25, 2025</del>
+      <ins>January 15, 2026</ins>
+    </>
+  ],
   ["Notification of Acceptance", "January 10, 2026"],
   ["Early Bird Registration", "January 1–15, 2026"],
   ["Late Registration", "January 16–26, 2026"],
