@@ -2,7 +2,14 @@ import Section from "@/components/section"
 
 const items: [string, string][] = [
   ["Abstract Submission Start", "November 01, 2025"],
-  ["Last Date of Abstract Submission", "December 25, 2025"],
+  ["Last Date of Abstract Submission", 
+   <>
+      <span className="line-through text-muted-foreground mr-2">
+        December 25, 2025
+      </span>
+      <span>January 15, 2026</span>
+    </>
+   ],
   ["Notification of Acceptance", "January 10, 2026"],
   ["Early Bird Registration", "January 1–15, 2026"],
   ["Late Registration", "January 16–26, 2026"],
