@@ -6,7 +6,7 @@ const items: [string, React.ReactNode][] = [
     "Last Date of Abstract Submission",
     <>
       <del className="text-muted-foreground mr-2">December 25, 2025</del>
-      <ins>January 15, 2026</ins>
+      <ins className="no-underline">January 15, 2026</ins>
     </>
   ],
   ["Notification of Acceptance", "January 10, 2026"],
