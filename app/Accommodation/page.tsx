@@ -21,7 +21,10 @@ export default function ContactPage() {
           <div className="rounded-2xl border p-4 shadow-sm">
             <h3 className="font-semibold">Shree Karni Place Resort</h3>
             <p className="text-sm text-muted-foreground">
-              Location: NH-8, Near Toll Plaza, Tolamal, Kishangarh
+              Location: NH-8, Near Toll Plaza, Tolamal, Kishangarh (11 kms from Campus)
+            </p>
+             <p className="text-sm">
+              Rate: <span className="font-medium">Rs. 3000</span>
             </p>
             <p className="text-sm">
               Contact for Booking: <span className="font-medium">9957521627</span>
