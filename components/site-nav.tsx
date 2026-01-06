@@ -53,6 +53,8 @@ const menu: Array<
       //{ href: "/program/terms-and-conditions", label: "Terms and conditions" },
     ],
   },
+  
+  { type: "link", href: "/Accommodation", label: "Accommodation" },
   {
     type: "group",
     label: "Events",
