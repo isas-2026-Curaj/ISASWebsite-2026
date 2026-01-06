@@ -41,19 +41,7 @@ export default function ContactPage() {
           </div>
         </div>
 
-        {/* Contact Details */}
-        <div className="space-y-6">
-          <h2 className="text-xl font-semibold">University Contact</h2>
-          <div>
-            <h3 className="font-medium">Email</h3>
-            <a
-              href="mailto:isas@curaj.ac.in"
-              className="text-primary underline-offset-2 hover:underline"
-            >
-              isas@curaj.ac.in
-            </a>
-          </div>
-        </div>
+
       </div>
     </main>
   )
