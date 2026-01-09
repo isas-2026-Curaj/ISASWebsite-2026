@@ -8,11 +8,13 @@ import SiteNav from "@/components/site-nav"
 import SiteFooter from "@/components/site-footer"
 import { Suspense } from "react"
 
-export const metadata: Metadata = {
-  title: "ISAS 2026 - Central University of Rajasthan",
-  description: "International Symposium on Applied Statistics (ISAS) 2026, hosted by the Department of Statistics, School of Mathematical and Statistical Sciences, Central University of Rajasthan, Ajmer from January 29 to 31, 2026.",
-  generator: "Next.js",
-}
+export const metadata = {
+  title: "ISAS 2026 | 76th Annual Conference of ISAS at CURAJ, Ajmer",
+  description:
+    "We are thrilled to host the 76th Annual Conference of ISAS at Central University of Rajasthan, Ajmer. Join leading experts, researchers, and scholars for this prestigious event.",
+  keywords: "ISAS 2026, CURAJ, Ajmer Conference, ISAS India, Event, Research",
+};
+
 
 export default function RootLayout({
   children,
