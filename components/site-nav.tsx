@@ -54,7 +54,7 @@ const menu: Array<
     ],
   },
   
-  { type: "link", href: "/Accommodation", label: "Accommodation" },
+
   {
     type: "group",
     label: "Events",
@@ -66,6 +66,7 @@ const menu: Array<
       { href: "/Events/Workshop", label: "Workshop" },
     ],
   },
+    { type: "link", href: "/Accommodation", label: "Accommodation" },
   { type: "link", href: "/contact", label: "Contact" },
 ]
 
