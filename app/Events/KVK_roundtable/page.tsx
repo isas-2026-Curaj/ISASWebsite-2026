@@ -3,14 +3,24 @@ import Image from "next/image"
 export default function KVKRoundtablePage() {
   return (
     <main className="max-w-4xl mx-auto py-10 px-4 space-y-10">
-      <h1 className="text-3xl md:text-4xl font-bold text-primary mb-4 text-center">Coming Soon...</h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-primary mb-4 text-center">Survey Tool for Assessing Data-Driven Delivery System through KVKs</h1>
       <p>One of the key sub-themes, “Data-Driven Delivery System through KVK and ICAR”, focuses on strengthening and enhancing the efficiency and sustainability of KVKs 
         across the country through data-driven approaches. In this context, a survey tool has been developed to assess the current status of KVKs and to formulate suitable policies for their future advancement.
 Considering this futuristic vision, you are kindly requested to contribute to this mission by providing your valuable responses through the survey tool. 
         Your participation will play a significant role in the success of this initiative. The findings based on the survey will be presented during the conference in the presence of 
         ICAR dignitaries and Government representatives. We humbly request that you please submit your survey response by January 15, 2026, the stipulated deadline. 
         Please be assured that your personal details will remain completely confidential.</p>
-      <p>Survey Google Form Link: https://forms.gle/zE4iMaWNRskc6zUU7</p>
+        <p>
+        <strong>Survey Google Form Link:</strong>{" "}
+        <a
+          href="https://forms.gle/zE4iMaWNRskc6zUU7"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
+        >
+          https://forms.gle/zE4iMaWNRskc6zUU7
+        </a>
+      </p>
       {/* 
       <div className="w-full flex justify-center mb-6">
         <Image
